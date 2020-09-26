@@ -1,31 +1,36 @@
-# RDII (Rainfall-Derived Infiltration and Inflow) analysis tool
+# RDII (Rainfall-Derived Infiltration and Inflow) Tool
 
 [RDII](https://www.wef.org/globalassets/assets-wef/direct-download-library/public/03---resources/wsec-2017-fs-001-rdii-modeling-fact-sheet---final.pdf) tool using Rust and WebAssembly.
 
-All analysis is done in the browser. No data is uploaded to any server.
+All analysis is done in the browser. No data is uploaded to a server.
 
 
-# Instalation
+# work with the project
 
- Clone the repository
+Install Rust and WASM tools:
+
+https://rustwasm.github.io/docs/book/introduction.html
  
- [Prepare environment](https://rustwasm.github.io/docs/book/introduction.html)
- 
- Build: 
- ```sh
- wasm-pack build
- ```
- 
- init npm package
- ```sh
- cd www
- npm install
- ```
+Build Rust backend: 
+```sh
+$ wasm-pack build
+```
 
- Run local server
- ```sh
- npm run server
- ```
+Init npm package
+```sh
+$ cd www
+(www)$ npm install
+```
+
+Run local server
+```sh
+(www)$ npm run server
+```
+
+Deploy application for histing on Github
+```sh
+(www)$ npm run deploy
+```
 
 
 # Redistributing
