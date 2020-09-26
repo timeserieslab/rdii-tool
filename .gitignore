@@ -1,1 +1,8 @@
 .vscode/
+/target
+*.lock
+.bin/
+/pkg
+node_modules/
+dist/
+package-lock.json
