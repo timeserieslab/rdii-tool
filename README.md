@@ -5,7 +5,7 @@
 All analysis is done in the browser. No data is uploaded to a server.
 
 
-# work with the project
+# Working with the project
 
 Install Rust and WASM tools:
 
